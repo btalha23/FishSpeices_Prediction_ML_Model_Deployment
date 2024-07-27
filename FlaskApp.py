@@ -34,8 +34,8 @@ def predict():
     output = prediction[0]
 
     
-    return render_template('index.html', prediction_text='The fish belong to species {}'.format(output))
-    
+    return render_template('result.html', prediction_text='The fish belong to species {}'.format(output))
+    # return 'The fish belong to species {}'.format(output)    
     
 
 
